@@ -1,0 +1,21 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "com.bettercontent.airtightmachinery.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "chemistry.create.BasinAirtightMixin",
+    "chemistry.create.SmartBlockEntityAirtightPersistenceMixin",
+    "chemistry.pneumaticcraft.EmptyPcbEtchingFluidMixin",
+    "chemistry.pneumaticcraft.FluidMixerAirtightMixin",
+    "chemistry.pneumaticcraft.ThermopneumaticPlantAirtightMixin"
+  ],
+  "client": [
+    "chemistry.create.BasinRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "server": [],
+  "refmap": "airtight_machinery.refmap.json"
+}
